@@ -1166,3 +1166,53 @@ input:checked + .slider:before {
 .lang-switch:active {
   transform: scale(0.96);
 }
+
+/* ========== SEO 正文内容区（首页工具下方） ========== */
+.seo-content {
+  background: #FFFFFF;
+  padding: 3.5rem 1.25rem 4.5rem;
+  border-top: 1px solid #FFE0E9;
+}
+
+.seo-content article {
+  max-width: 44rem;
+  margin: 0 auto;
+  color: #3a3a3a;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.seo-content h2 {
+  color: #C44569;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 2.2rem 0 0.8rem;
+}
+
+.seo-content h2:first-child {
+  margin-top: 0;
+}
+
+.seo-content h3 {
+  color: #444;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1.4rem 0 0.4rem;
+}
+
+.seo-content p {
+  margin: 0 0 1rem;
+}
+
+.seo-content ol {
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
+}
+
+.seo-content ol li {
+  margin-bottom: 0.5rem;
+}
+
+.seo-content strong {
+  color: #C44569;
+}
